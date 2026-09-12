@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clothing Search Engine | IR Assignment 1 (CSD358)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-main: #f8fafc;
+      --card-bg: #ffffff;
+      --text-main: #0f172a;
+      --text-muted: #64748b;
+      --primary: #2563eb;
+      --primary-hover: #1d4ed8;
+      --primary-light: #eff6ff;
+      --border: #e2e8f0;
+      --badge-vsm: #818cf8;
+      --badge-pos: #10b981;
+      --badge-fp: #f43f5e;
+      --radius: 12px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      background-color: var(--bg-main);
+      color: var(--text-main);
+      line-height: 1.5;
+      padding: 2rem 1rem;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    header h1 {
+      font-size: 2.2rem;
+      font-weight: 700;
+      color: #1e293b;
+      margin-bottom: 0.4rem;
+    }
+
+    header p {
+      color: var(--text-muted);
+      font-size: 1rem;
+    }
+
+    .search-box-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.5rem;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+      margin-bottom: 2rem;
+    }
+
+    .mode-selector {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 1.25rem;
+      flex-wrap: wrap;
+    }
+
+    .mode-btn {
+      flex: 1;
+      min-width: 200px;
+      padding: 0.75rem 1rem;
+      background: #f1f5f9;
+      border: 2px solid transparent;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: 600;
+      font-size: 0.95rem;
+      color: var(--text-muted);
+      transition: all 0.2s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+    }
+
+    .mode-btn:hover {
+      background: #e2e8f0;
+    }
+
+    .mode-btn.active {
+      background: var(--primary-light);
+      border-color: var(--primary);
+      color: var(--primary);
+    }
+
+    .search-input-group {
+      display: flex;
+      gap: 0.75rem;
+    }
+
+    .search-input {
+      flex: 1;
+      padding: 0.85rem 1.25rem;
+      border: 1.5px solid var(--border);
+      border-radius: 8px;
+      font-size: 1rem;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+
+    .search-input:focus {
+      border-color: var(--primary);
+    }
+
+    .btn-search {
+      padding: 0.85rem 2rem;
+      background: var(--primary);
+      color: #ffffff;
+      border: none;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+
+    .btn-search:hover {
+      background: var(--primary-hover);
+    }
+
+    .quick-queries {
+      margin-top: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    .chip {
+      background: #f8fafc;
+      border: 1px solid var(--border);
+      padding: 0.3rem 0.65rem;
+      border-radius: 20px;
+      cursor: pointer;
+      transition: all 0.2s;
+      font-weight: 500;
+    }
+
+    .chip:hover {
+      background: #e2e8f0;
+      color: var(--text-main);
+    }
+
+    .status-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1.25rem;
+      padding: 0 0.5rem;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+    }
+
+    .results-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+
+    .comparison-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+    }
+
+    .column-title {
+      font-size: 1.15rem;
+      font-weight: 700;
+      margin-bottom: 0.75rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .result-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.25rem;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
+      transition: transform 0.15s, box-shadow 0.15s;
+    }
+
+    .result-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
+    }
+
+    .result-card.false-positive {
+      border-left: 4px solid var(--badge-fp);
+      background: #fff5f5;
+    }
+
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 0.5rem;
+    }
+
+    .badge-group {
+      display: flex;
+      gap: 0.5rem;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 0.2rem 0.55rem;
+      border-radius: 6px;
+      font-size: 0.78rem;
+      font-weight: 600;
+    }
+
+    .badge-id {
+      background: #f1f5f9;
+      color: #334155;
+    }
+
+    .badge-cat {
+      background: #e0f2fe;
+      color: #0369a1;
+    }
+
+    .badge-score {
+      background: #e0e7ff;
+      color: #4338ca;
+    }
+
+    .badge-pos {
+      background: #dcfce7;
+      color: #15803d;
+    }
+
+    .badge-fp {
+      background: #ffe4e6;
+      color: #be123c;
+    }
+
+    .card-title {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: #1e293b;
+      margin-bottom: 0.4rem;
+    }
+
+    .card-desc {
+      font-size: 0.9rem;
+      color: #475569;
+      line-height: 1.45;
+    }
+
+    .comparison-banner {
+      background: #fffbeb;
+      border: 1px solid #fef3c7;
+      border-left: 4px solid #f59e0b;
+      padding: 1rem;
+      border-radius: 8px;
+      margin-bottom: 1.5rem;
+      font-size: 0.92rem;
+      color: #92400e;
+    }
+
+    .no-results {
+      text-align: center;
+      padding: 3rem 1rem;
+      background: var(--card-bg);
+      border-radius: var(--radius);
+      border: 1px dashed var(--border);
+      color: var(--text-muted);
+    }
+
+    @media (max-width: 768px) {
+      .comparison-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h1>Clothing Search Engine</h1>
+      <p>Information Retrieval Assignment 1 (CSD358) • Corpus: 100 Products ($N=100$)</p>
+    </header>
+
+    <!-- Search Controls -->
+    <div class="search-box-card">
+      <div class="mode-selector">
+        <button type="button" class="mode-btn active" id="btn-mode-vsm" onclick="setMode('vsm')">
+          <span>🔍 Free-Text (VSM lnc.ltc)</span>
+        </button>
+        <button type="button" class="mode-btn" id="btn-mode-pos" onclick="setMode('positional')">
+          <span>🎯 Phrase & Proximity Search</span>
+        </button>
+        <button type="button" class="mode-btn" id="btn-mode-cmp" onclick="setMode('compare')">
+          <span>⚡ Dual Comparison (Novelty)</span>
+        </button>
+      </div>
+
+      <div class="search-input-group">
+        <input type="text" id="query-input" class="search-input" placeholder="Enter query (e.g. breathable cotton fabric, 'cotton shirt', or cotton WITHIN/3 shirt)..." onkeypress="handleKeyPress(event)">
+        <button type="button" class="btn-search" onclick="runSearch()">Search</button>
+      </div>
+
+      <div class="quick-queries">
+        <span>Try sample queries:</span>
+        <span class="chip" onclick="setQuery('breathable cotton fabric', 'vsm')">breathable cotton fabric</span>
+        <span class="chip" onclick="setQuery('cotton shirt', 'positional')">&quot;cotton shirt&quot;</span>
+        <span class="chip" onclick="setQuery('stretch denim', 'positional')">&quot;stretch denim&quot;</span>
+        <span class="chip" onclick="setQuery('cotton WITHIN/3 shirt', 'positional')">cotton WITHIN/3 shirt</span>
+        <span class="chip" onclick="setQuery('stretch WITHIN/4 denim', 'positional')">stretch WITHIN/4 denim</span>
+        <span class="chip" onclick="setQuery('cotton shirt', 'compare')">Dual Compare: &quot;cotton shirt&quot;</span>
+        <span class="chip" onclick="setQuery('waterproof spacesuit astronaut', 'vsm')">Non-Corpus Query</span>
+      </div>
+    </div>
+
+    <!-- Status Bar -->
+    <div class="status-bar" id="status-bar" style="display: none;">
+      <span id="status-text">Showing results...</span>
+      <span id="latency-text">0.0 ms</span>
+    </div>
+
+    <!-- Results Display Container -->
+    <div id="results-area"></div>
+  </div>
+
+  <script>
+    let currentMode = 'vsm';
+
+    function setMode(mode) {
+      currentMode = mode;
+      document.querySelectorAll('.mode-btn').forEach(btn => btn.classList.remove('active'));
+      if (mode === 'vsm') document.getElementById('btn-mode-vsm').classList.add('active');
+      if (mode === 'positional') document.getElementById('btn-mode-pos').classList.add('active');
+      if (mode === 'compare') document.getElementById('btn-mode-cmp').classList.add('active');
+
+      const input = document.getElementById('query-input');
+      if (mode === 'vsm') {
+        input.placeholder = "Enter free-text query (e.g., breathable cotton fabric, casual summer t-shirt)...";
+      } else if (mode === 'positional') {
+        input.placeholder = "Enter exact phrase (e.g. cotton shirt) or proximity (e.g. cotton WITHIN/3 shirt)...";
+      } else {
+        input.placeholder = "Enter query to compare VSM vs Positional retrieval side-by-side...";
+      }
+    }
+
+    function setQuery(query, mode) {
+      document.getElementById('query-input').value = query;
+      setMode(mode);
+      runSearch();
+    }
+
+    function handleKeyPress(event) {
+      if (event.key === 'Enter') {
+        runSearch();
+      }
+    }
+
+    async function runSearch() {
+      const query = document.getElementById('query-input').value.trim();
+      if (!query) return;
+
+      const statusBar = document.getElementById('status-bar');
+      const statusText = document.getElementById('status-text');
+      const latencyText = document.getElementById('latency-text');
+      const resultsArea = document.getElementById('results-area');
+
+      resultsArea.innerHTML = '<div class="no-results">Searching...</div>';
+
+      try {
+        const resp = await fetch('/api/search', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ query: query, mode: currentMode })
+        });
+
+        const data = await resp.json();
+        statusBar.style.display = 'flex';
+        latencyText.textContent = `${data.time_ms} ms`;
+
+        if (currentMode === 'vsm') {
+          renderVSM(data);
+        } else if (currentMode === 'positional') {
+          renderPositional(data);
+        } else if (currentMode === 'compare') {
+          renderCompare(data);
+        }
+      } catch (err) {
+        resultsArea.innerHTML = `<div class="no-results" style="color: red;">Error executing query: ${err.message}</div>`;
+      }
+    }
+
+    function renderVSM(data) {
+      const resultsArea = document.getElementById('results-area');
+      const hits = data.vsm_results;
+      document.getElementById('status-text').textContent = `Top ${hits.length} Ranked Results for: "${data.query}" (Vector Space Model: lnc.ltc)`;
+
+      if (hits.length === 0) {
+        resultsArea.innerHTML = '<div class="no-results">No matching documents found in corpus.</div>';
+        return;
+      }
+
+      let html = '<div class="results-grid">';
+      hits.forEach((item, idx) => {
+        html += `
+          <div class="result-card">
+            <div class="card-header">
+              <div class="badge-group">
+                <span class="badge badge-id">#${idx + 1} | ${item.doc_id_str}</span>
+                <span class="badge badge-cat">${item.category}</span>
+              </div>
+              <span class="badge badge-score">Cosine Score: ${item.score.toFixed(4)}</span>
+            </div>
+            <div class="card-title">${item.title}</div>
+            <div class="card-desc">${item.description}</div>
+          </div>
+        `;
+      });
+      html += '</div>';
+      resultsArea.innerHTML = html;
+    }
+
+    function renderPositional(data) {
+      const resultsArea = document.getElementById('results-area');
+      const hits = data.positional_results;
+      document.getElementById('status-text').textContent = `Found ${hits.length} Matching Documents using Positional Index for: "${data.query}"`;
+
+      if (hits.length === 0) {
+        resultsArea.innerHTML = '<div class="no-results">No documents matched exact phrase or proximity condition.</div>';
+        return;
+      }
+
+      let html = '<div class="results-grid">';
+      hits.forEach(item => {
+        const posText = item.matching_positions.map(p => `(${p.join(', ')})`).join(', ');
+        html += `
+          <div class="result-card">
+            <div class="card-header">
+              <div class="badge-group">
+                <span class="badge badge-id">${item.doc_id_str}</span>
+                <span class="badge badge-cat">${item.category}</span>
+              </div>
+              <span class="badge badge-pos">📍 Term Positions: ${posText}</span>
+            </div>
+            <div class="card-title">${item.title}</div>
+            <div class="card-desc">${item.description}</div>
+          </div>
+        `;
+      });
+      html += '</div>';
+      resultsArea.innerHTML = html;
+    }
+
+    function renderCompare(data) {
+      const resultsArea = document.getElementById('results-area');
+      const vsmHits = data.vsm_results;
+      const posHits = data.positional_results;
+      const cmp = data.comparison;
+
+      const posDocSet = new Set(posHits.map(p => p.doc_id));
+
+      let banner = `
+        <div class="comparison-banner">
+          <strong>⚡ IR Model Comparison Analysis:</strong> ${cmp.explanation}
+        </div>
+      `;
+
+      let html = banner + '<div class="comparison-grid">';
+
+      // Left Column: VSM Results
+      html += '<div>';
+      html += `<div class="column-title"><span>VSM Ranked Retrieval (lnc.ltc)</span><span class="badge badge-score">${vsmHits.length} docs</span></div>`;
+      if (vsmHits.length === 0) {
+        html += '<div class="no-results">No VSM matches.</div>';
+      } else {
+        vsmHits.forEach(item => {
+          const isFalsePositive = !posDocSet.has(item.doc_id);
+          const cardClass = isFalsePositive ? 'result-card false-positive' : 'result-card';
+          html += `
+            <div class="${cardClass}" style="margin-bottom: 0.75rem;">
+              <div class="card-header">
+                <span class="badge badge-id">${item.doc_id_str}</span>
+                ${isFalsePositive ? '<span class="badge badge-fp">⚠️ False Positive for Phrase</span>' : '<span class="badge badge-pos">✓ Valid Phrase Match</span>'}
+                <span class="badge badge-score">Score: ${item.score.toFixed(4)}</span>
+              </div>
+              <div class="card-title" style="font-size: 0.95rem;">${item.title}</div>
+              <div class="card-desc" style="font-size: 0.85rem;">${item.description}</div>
+            </div>
+          `;
+        });
+      }
+      html += '</div>';
+
+      // Right Column: Positional Results
+      html += '<div>';
+      html += `<div class="column-title"><span>Positional Index Match</span><span class="badge badge-pos">${posHits.length} docs</span></div>`;
+      if (posHits.length === 0) {
+        html += '<div class="no-results">No Positional matches.</div>';
+      } else {
+        posHits.forEach(item => {
+          const posText = item.matching_positions.map(p => `(${p.join(', ')})`).join(', ');
+          html += `
+            <div class="result-card" style="margin-bottom: 0.75rem;">
+              <div class="card-header">
+                <span class="badge badge-id">${item.doc_id_str}</span>
+                <span class="badge badge-cat">${item.category}</span>
+                <span class="badge badge-pos">📍 Positions: ${posText}</span>
+              </div>
+              <div class="card-title" style="font-size: 0.95rem;">${item.title}</div>
+              <div class="card-desc" style="font-size: 0.85rem;">${item.description}</div>
+            </div>
+          `;
+        });
+      }
+      html += '</div>';
+
+      html += '</div>';
+      resultsArea.innerHTML = html;
+    }
+
+    // Default search on load
+    window.addEventListener('DOMContentLoaded', () => {
+      setQuery('cotton shirt', 'vsm');
+    });
+  </script>
+</body>
+</html>
