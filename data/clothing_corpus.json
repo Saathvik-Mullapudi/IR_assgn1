@@ -1,0 +1,702 @@
+[
+  {
+    "doc_id": 1,
+    "doc_id_str": "D001",
+    "category": "T-Shirt",
+    "title": "Men's Cotton Crew Neck T-Shirt - Black",
+    "description": "Men's Cotton Crew Neck T-Shirt - Black. Made from 100% cotton, this t-shirt is designed for everyday Indian wear. It features breathable fabric, machine washable, and colourfast finish. The black colour works well for casual, office, travel, or festive styling depending on the garment. Available in size S and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 2,
+    "doc_id_str": "D002",
+    "category": "Shirt",
+    "title": "Men's Checked Cotton Shirt - Black",
+    "description": "Men's Checked Cotton Shirt - Black. Made from linen blend, this shirt is designed for everyday Indian wear. It features button closure, slim fit, and skin-friendly fabric. The black colour works well for casual, office, travel, or festive styling depending on the garment. Available in size M and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 3,
+    "doc_id_str": "D003",
+    "category": "Jeans",
+    "title": "Men's Regular Fit Denim Jeans - Grey",
+    "description": "Men's Regular Fit Denim Jeans - Grey. Made from comfort stretch denim, this jeans is designed for everyday Indian wear. It features zip fly, durable stitching, and easy-care construction. The grey colour works well for casual, office, travel, or festive styling depending on the garment. Available in size L and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 4,
+    "doc_id_str": "D004",
+    "category": "Kurta",
+    "title": "Men's Regular Fit Kurta - Pink",
+    "description": "Men's Regular Fit Kurta - Pink. Made from linen blend, this kurta is designed for everyday Indian wear. It features breathable fabric, comfortable fit, and everyday comfort. The pink colour works well for casual, office, travel, or festive styling depending on the garment. Available in size XL and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 5,
+    "doc_id_str": "D005",
+    "category": "Saree",
+    "title": "Women's Printed Daily Wear Saree - Blue",
+    "description": "Women's Printed Daily Wear Saree - Blue. Made from cotton, this saree is designed for everyday Indian wear. It features festive wear, printed border, and durable stitching. The blue colour works well for casual, office, travel, or festive styling depending on the garment. Available in size XXL and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 6,
+    "doc_id_str": "D006",
+    "category": "Dress",
+    "title": "Women's Solid Midi Dress - Green",
+    "description": "Women's Solid Midi Dress - Green. Made from cotton blend, this dress is designed for everyday Indian wear. It features comfortable fit, short sleeves, and minimal shrinkage. The green colour works well for casual, office, travel, or festive styling depending on the garment. Available in size S and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 7,
+    "doc_id_str": "D007",
+    "category": "Hoodie",
+    "title": "Women's Oversized Fleece Hoodie - Black",
+    "description": "Women's Oversized Fleece Hoodie - Black. Made from poly cotton, this hoodie is designed for everyday Indian wear. It features kangaroo pocket, warm fabric, and colourfast finish. The black colour works well for casual, office, travel, or festive styling depending on the garment. Available in size M and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 8,
+    "doc_id_str": "D008",
+    "category": "Jacket",
+    "title": "Women's Casual Puffer Jacket - Olive",
+    "description": "Women's Casual Puffer Jacket - Olive. Made from quilted polyester, this jacket is designed for everyday Indian wear. It features lightweight, winter wear, and skin-friendly fabric. The olive colour works well for casual, office, travel, or festive styling depending on the garment. Available in size L and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 9,
+    "doc_id_str": "D009",
+    "category": "Leggings",
+    "title": "Women's High Waist Stretch Leggings - Olive Green",
+    "description": "Women's High Waist Stretch Leggings - Olive Green. Made from cotton stretch, this leggings is designed for everyday Indian wear. It features comfortable waistband, high waist, and easy-care construction. The olive green colour works well for casual, office, travel, or festive styling depending on the garment. Available in size XL and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 10,
+    "doc_id_str": "D010",
+    "category": "Sweatshirt",
+    "title": "Women's Fleece Sweatshirt - Black",
+    "description": "Women's Fleece Sweatshirt - Black. Made from cotton blend, this sweatshirt is designed for everyday Indian wear. It features winter wear, warm fabric, and everyday comfort. The black colour works well for casual, office, travel, or festive styling depending on the garment. Available in size XXL and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 11,
+    "doc_id_str": "D011",
+    "category": "T-Shirt",
+    "title": "Men's Oversized Graphic T-Shirt - Mustard",
+    "description": "Men's Oversized Graphic T-Shirt - Mustard. Made from cotton blend, this t-shirt is designed for everyday Indian wear. It features breathable fabric, machine washable, and durable stitching. The mustard colour works well for casual, office, travel, or festive styling depending on the garment. Available in size S and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 12,
+    "doc_id_str": "D012",
+    "category": "Shirt",
+    "title": "Women's Striped Casual Shirt - Blue",
+    "description": "Women's Striped Casual Shirt - Blue. Made from viscose blend, this shirt is designed for everyday Indian wear. It features button closure, slim fit, and minimal shrinkage. The blue colour works well for casual, office, travel, or festive styling depending on the garment. Available in size M and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 13,
+    "doc_id_str": "D013",
+    "category": "Jeans",
+    "title": "Men's Slim Fit Stretch Jeans - Grey",
+    "description": "Men's Slim Fit Stretch Jeans - Grey. Made from stretch denim, this jeans is designed for everyday Indian wear. It features zip fly, durable stitching, and colourfast finish. The grey colour works well for casual, office, travel, or festive styling depending on the garment. Available in size L and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 14,
+    "doc_id_str": "D014",
+    "category": "Kurta",
+    "title": "Women's Printed Straight Kurta - Beige",
+    "description": "Women's Printed Straight Kurta - Beige. Made from cotton slub, this kurta is designed for everyday Indian wear. It features breathable fabric, comfortable fit, and skin-friendly fabric. The beige colour works well for casual, office, travel, or festive styling depending on the garment. Available in size XL and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 15,
+    "doc_id_str": "D015",
+    "category": "Saree",
+    "title": "Women's Cotton Handloom Saree - Red",
+    "description": "Women's Cotton Handloom Saree - Red. Made from chiffon, this saree is designed for everyday Indian wear. It features festive wear, printed border, and easy-care construction. The red colour works well for casual, office, travel, or festive styling depending on the garment. Available in size XXL and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 16,
+    "doc_id_str": "D016",
+    "category": "Dress",
+    "title": "Women's Casual Fit Dress - Floral Pink",
+    "description": "Women's Casual Fit Dress - Floral Pink. Made from viscose, this dress is designed for everyday Indian wear. It features comfortable fit, short sleeves, and everyday comfort. The floral pink colour works well for casual, office, travel, or festive styling depending on the garment. Available in size S and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 17,
+    "doc_id_str": "D017",
+    "category": "Hoodie",
+    "title": "Unisex Fleece Pullover Hoodie - Navy Blue",
+    "description": "Unisex Fleece Pullover Hoodie - Navy Blue. Made from fleece, this hoodie is designed for everyday Indian wear. It features kangaroo pocket, warm fabric, and durable stitching. The navy blue colour works well for casual, office, travel, or festive styling depending on the garment. Available in size M and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 18,
+    "doc_id_str": "D018",
+    "category": "Jacket",
+    "title": "Women's Quilted Winter Jacket - Beige",
+    "description": "Women's Quilted Winter Jacket - Beige. Made from denim, this jacket is designed for everyday Indian wear. It features lightweight, winter wear, and minimal shrinkage. The beige colour works well for casual, office, travel, or festive styling depending on the garment. Available in size L and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 19,
+    "doc_id_str": "D019",
+    "category": "Leggings",
+    "title": "Women's Printed Active Leggings - Black",
+    "description": "Women's Printed Active Leggings - Black. Made from nylon spandex, this leggings is designed for everyday Indian wear. It features comfortable waistband, high waist, and colourfast finish. The black colour works well for casual, office, travel, or festive styling depending on the garment. Available in size XL and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 20,
+    "doc_id_str": "D020",
+    "category": "Sweatshirt",
+    "title": "Men's Regular Fit Sweatshirt - Navy Blue",
+    "description": "Men's Regular Fit Sweatshirt - Navy Blue. Made from poly cotton, this sweatshirt is designed for everyday Indian wear. It features winter wear, warm fabric, and skin-friendly fabric. The navy blue colour works well for casual, office, travel, or festive styling depending on the garment. Available in size XXL and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 21,
+    "doc_id_str": "D021",
+    "category": "T-Shirt",
+    "title": "Men's Cotton Crew Neck T-Shirt - Sky Blue",
+    "description": "Men's Cotton Crew Neck T-Shirt - Sky Blue. Made from 100% cotton, this t-shirt is designed for everyday Indian wear. It features breathable fabric, machine washable, and easy-care construction. The sky blue colour works well for casual, office, travel, or festive styling depending on the garment. Available in size S and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 22,
+    "doc_id_str": "D022",
+    "category": "Shirt",
+    "title": "Men's Checked Cotton Shirt - White",
+    "description": "Men's Checked Cotton Shirt - White. Made from linen blend, this shirt is designed for everyday Indian wear. It features button closure, slim fit, and everyday comfort. The white colour works well for casual, office, travel, or festive styling depending on the garment. Available in size M and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 23,
+    "doc_id_str": "D023",
+    "category": "Jeans",
+    "title": "Men's Regular Fit Denim Jeans - Grey",
+    "description": "Men's Regular Fit Denim Jeans - Grey. Made from cotton denim, this jeans is designed for everyday Indian wear. It features zip fly, durable stitching, and durable stitching. The grey colour works well for casual, office, travel, or festive styling depending on the garment. Available in size L and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 24,
+    "doc_id_str": "D024",
+    "category": "Kurta",
+    "title": "Men's Regular Fit Kurta - Teal",
+    "description": "Men's Regular Fit Kurta - Teal. Made from linen blend, this kurta is designed for everyday Indian wear. It features breathable fabric, comfortable fit, and minimal shrinkage. The teal colour works well for casual, office, travel, or festive styling depending on the garment. Available in size XL and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 25,
+    "doc_id_str": "D025",
+    "category": "Saree",
+    "title": "Women's Printed Daily Wear Saree - Maroon",
+    "description": "Women's Printed Daily Wear Saree - Maroon. Made from cotton, this saree is designed for everyday Indian wear. It features festive wear, printed border, and colourfast finish. The maroon colour works well for casual, office, travel, or festive styling depending on the garment. Available in size XXL and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 26,
+    "doc_id_str": "D026",
+    "category": "Dress",
+    "title": "Women's Solid Midi Dress - Navy Blue",
+    "description": "Women's Solid Midi Dress - Navy Blue. Made from cotton blend, this dress is designed for everyday Indian wear. It features comfortable fit, short sleeves, and skin-friendly fabric. The navy blue colour works well for casual, office, travel, or festive styling depending on the garment. Available in size S and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 27,
+    "doc_id_str": "D027",
+    "category": "Hoodie",
+    "title": "Women's Oversized Fleece Hoodie - Wine",
+    "description": "Women's Oversized Fleece Hoodie - Wine. Made from poly cotton, this hoodie is designed for everyday Indian wear. It features kangaroo pocket, warm fabric, and easy-care construction. The wine colour works well for casual, office, travel, or festive styling depending on the garment. Available in size M and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 28,
+    "doc_id_str": "D028",
+    "category": "Jacket",
+    "title": "Women's Casual Puffer Jacket - Black",
+    "description": "Women's Casual Puffer Jacket - Black. Made from quilted polyester, this jacket is designed for everyday Indian wear. It features lightweight, winter wear, and everyday comfort. The black colour works well for casual, office, travel, or festive styling depending on the garment. Available in size L and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 29,
+    "doc_id_str": "D029",
+    "category": "Leggings",
+    "title": "Women's High Waist Stretch Leggings - Grey",
+    "description": "Women's High Waist Stretch Leggings - Grey. Made from cotton stretch, this leggings is designed for everyday Indian wear. It features comfortable waistband, high waist, and durable stitching. The grey colour works well for casual, office, travel, or festive styling depending on the garment. Available in size XL and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 30,
+    "doc_id_str": "D030",
+    "category": "Sweatshirt",
+    "title": "Women's Fleece Sweatshirt - Maroon",
+    "description": "Women's Fleece Sweatshirt - Maroon. Made from cotton blend, this sweatshirt is designed for everyday Indian wear. It features winter wear, warm fabric, and minimal shrinkage. The maroon colour works well for casual, office, travel, or festive styling depending on the garment. Available in size XXL and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 31,
+    "doc_id_str": "D031",
+    "category": "T-Shirt",
+    "title": "Men's Oversized Graphic T-Shirt - Olive Green",
+    "description": "Men's Oversized Graphic T-Shirt - Olive Green. Made from cotton blend, this t-shirt is designed for everyday Indian wear. It features breathable fabric, machine washable, and colourfast finish. The olive green colour works well for casual, office, travel, or festive styling depending on the garment. Available in size S and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 32,
+    "doc_id_str": "D032",
+    "category": "Shirt",
+    "title": "Women's Striped Casual Shirt - Light Pink",
+    "description": "Women's Striped Casual Shirt - Light Pink. Made from viscose blend, this shirt is designed for everyday Indian wear. It features button closure, slim fit, and skin-friendly fabric. The light pink colour works well for casual, office, travel, or festive styling depending on the garment. Available in size M and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 33,
+    "doc_id_str": "D033",
+    "category": "Jeans",
+    "title": "Men's Slim Fit Stretch Jeans - Grey",
+    "description": "Men's Slim Fit Stretch Jeans - Grey. Made from comfort stretch denim, this jeans is designed for everyday Indian wear. It features zip fly, durable stitching, and easy-care construction. The grey colour works well for casual, office, travel, or festive styling depending on the garment. Available in size L and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 34,
+    "doc_id_str": "D034",
+    "category": "Kurta",
+    "title": "Women's Printed Straight Kurta - Maroon",
+    "description": "Women's Printed Straight Kurta - Maroon. Made from cotton slub, this kurta is designed for everyday Indian wear. It features breathable fabric, comfortable fit, and everyday comfort. The maroon colour works well for casual, office, travel, or festive styling depending on the garment. Available in size XL and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 35,
+    "doc_id_str": "D035",
+    "category": "Saree",
+    "title": "Women's Cotton Handloom Saree - Yellow",
+    "description": "Women's Cotton Handloom Saree - Yellow. Made from chiffon, this saree is designed for everyday Indian wear. It features festive wear, printed border, and durable stitching. The yellow colour works well for casual, office, travel, or festive styling depending on the garment. Available in size XXL and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 36,
+    "doc_id_str": "D036",
+    "category": "Dress",
+    "title": "Women's Casual Fit Dress - Black",
+    "description": "Women's Casual Fit Dress - Black. Made from viscose, this dress is designed for everyday Indian wear. It features comfortable fit, short sleeves, and minimal shrinkage. The black colour works well for casual, office, travel, or festive styling depending on the garment. Available in size S and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 37,
+    "doc_id_str": "D037",
+    "category": "Hoodie",
+    "title": "Unisex Fleece Pullover Hoodie - Black",
+    "description": "Unisex Fleece Pullover Hoodie - Black. Made from fleece, this hoodie is designed for everyday Indian wear. It features kangaroo pocket, warm fabric, and colourfast finish. The black colour works well for casual, office, travel, or festive styling depending on the garment. Available in size M and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 38,
+    "doc_id_str": "D038",
+    "category": "Jacket",
+    "title": "Women's Quilted Winter Jacket - Olive",
+    "description": "Women's Quilted Winter Jacket - Olive. Made from denim, this jacket is designed for everyday Indian wear. It features lightweight, winter wear, and skin-friendly fabric. The olive colour works well for casual, office, travel, or festive styling depending on the garment. Available in size L and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 39,
+    "doc_id_str": "D039",
+    "category": "Leggings",
+    "title": "Women's Printed Active Leggings - Olive Green",
+    "description": "Women's Printed Active Leggings - Olive Green. Made from nylon spandex, this leggings is designed for everyday Indian wear. It features comfortable waistband, high waist, and easy-care construction. The olive green colour works well for casual, office, travel, or festive styling depending on the garment. Available in size XL and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 40,
+    "doc_id_str": "D040",
+    "category": "Sweatshirt",
+    "title": "Men's Regular Fit Sweatshirt - Black",
+    "description": "Men's Regular Fit Sweatshirt - Black. Made from poly cotton, this sweatshirt is designed for everyday Indian wear. It features winter wear, warm fabric, and everyday comfort. The black colour works well for casual, office, travel, or festive styling depending on the garment. Available in size XXL and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 41,
+    "doc_id_str": "D041",
+    "category": "T-Shirt",
+    "title": "Men's Cotton Crew Neck T-Shirt - Maroon",
+    "description": "Men's Cotton Crew Neck T-Shirt - Maroon. Made from 100% cotton, this t-shirt is designed for everyday Indian wear. It features breathable fabric, machine washable, and durable stitching. The maroon colour works well for casual, office, travel, or festive styling depending on the garment. Available in size S and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 42,
+    "doc_id_str": "D042",
+    "category": "Shirt",
+    "title": "Men's Checked Cotton Shirt - Maroon",
+    "description": "Men's Checked Cotton Shirt - Maroon. Made from linen blend, this shirt is designed for everyday Indian wear. It features button closure, slim fit, and minimal shrinkage. The maroon colour works well for casual, office, travel, or festive styling depending on the garment. Available in size M and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 43,
+    "doc_id_str": "D043",
+    "category": "Jeans",
+    "title": "Men's Regular Fit Denim Jeans - Grey",
+    "description": "Men's Regular Fit Denim Jeans - Grey. Made from stretch denim, this jeans is designed for everyday Indian wear. It features zip fly, durable stitching, and colourfast finish. The grey colour works well for casual, office, travel, or festive styling depending on the garment. Available in size L and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 44,
+    "doc_id_str": "D044",
+    "category": "Kurta",
+    "title": "Men's Regular Fit Kurta - Navy Blue",
+    "description": "Men's Regular Fit Kurta - Navy Blue. Made from linen blend, this kurta is designed for everyday Indian wear. It features breathable fabric, comfortable fit, and skin-friendly fabric. The navy blue colour works well for casual, office, travel, or festive styling depending on the garment. Available in size XL and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 45,
+    "doc_id_str": "D045",
+    "category": "Saree",
+    "title": "Women's Printed Daily Wear Saree - Purple",
+    "description": "Women's Printed Daily Wear Saree - Purple. Made from cotton, this saree is designed for everyday Indian wear. It features festive wear, printed border, and easy-care construction. The purple colour works well for casual, office, travel, or festive styling depending on the garment. Available in size XXL and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 46,
+    "doc_id_str": "D046",
+    "category": "Dress",
+    "title": "Women's Solid Midi Dress - Lavender",
+    "description": "Women's Solid Midi Dress - Lavender. Made from cotton blend, this dress is designed for everyday Indian wear. It features comfortable fit, short sleeves, and everyday comfort. The lavender colour works well for casual, office, travel, or festive styling depending on the garment. Available in size S and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 47,
+    "doc_id_str": "D047",
+    "category": "Hoodie",
+    "title": "Women's Oversized Fleece Hoodie - Navy Blue",
+    "description": "Women's Oversized Fleece Hoodie - Navy Blue. Made from poly cotton, this hoodie is designed for everyday Indian wear. It features kangaroo pocket, warm fabric, and durable stitching. The navy blue colour works well for casual, office, travel, or festive styling depending on the garment. Available in size M and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 48,
+    "doc_id_str": "D048",
+    "category": "Jacket",
+    "title": "Women's Casual Puffer Jacket - Beige",
+    "description": "Women's Casual Puffer Jacket - Beige. Made from quilted polyester, this jacket is designed for everyday Indian wear. It features lightweight, winter wear, and minimal shrinkage. The beige colour works well for casual, office, travel, or festive styling depending on the garment. Available in size L and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 49,
+    "doc_id_str": "D049",
+    "category": "Leggings",
+    "title": "Women's High Waist Stretch Leggings - Black",
+    "description": "Women's High Waist Stretch Leggings - Black. Made from cotton stretch, this leggings is designed for everyday Indian wear. It features comfortable waistband, high waist, and colourfast finish. The black colour works well for casual, office, travel, or festive styling depending on the garment. Available in size XL and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 50,
+    "doc_id_str": "D050",
+    "category": "Sweatshirt",
+    "title": "Women's Fleece Sweatshirt - Navy Blue",
+    "description": "Women's Fleece Sweatshirt - Navy Blue. Made from cotton blend, this sweatshirt is designed for everyday Indian wear. It features winter wear, warm fabric, and skin-friendly fabric. The navy blue colour works well for casual, office, travel, or festive styling depending on the garment. Available in size XXL and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 51,
+    "doc_id_str": "D051",
+    "category": "T-Shirt",
+    "title": "Men's Oversized Graphic T-Shirt - Navy Blue",
+    "description": "Men's Oversized Graphic T-Shirt - Navy Blue. Made from cotton blend, this t-shirt is designed for everyday Indian wear. It features breathable fabric, machine washable, and easy-care construction. The navy blue colour works well for casual, office, travel, or festive styling depending on the garment. Available in size S and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 52,
+    "doc_id_str": "D052",
+    "category": "Shirt",
+    "title": "Women's Striped Casual Shirt - Beige",
+    "description": "Women's Striped Casual Shirt - Beige. Made from viscose blend, this shirt is designed for everyday Indian wear. It features button closure, slim fit, and everyday comfort. The beige colour works well for casual, office, travel, or festive styling depending on the garment. Available in size M and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 53,
+    "doc_id_str": "D053",
+    "category": "Jeans",
+    "title": "Men's Slim Fit Stretch Jeans - Grey",
+    "description": "Men's Slim Fit Stretch Jeans - Grey. Made from cotton denim, this jeans is designed for everyday Indian wear. It features zip fly, durable stitching, and durable stitching. The grey colour works well for casual, office, travel, or festive styling depending on the garment. Available in size L and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 54,
+    "doc_id_str": "D054",
+    "category": "Kurta",
+    "title": "Women's Printed Straight Kurta - Mustard",
+    "description": "Women's Printed Straight Kurta - Mustard. Made from cotton slub, this kurta is designed for everyday Indian wear. It features breathable fabric, comfortable fit, and minimal shrinkage. The mustard colour works well for casual, office, travel, or festive styling depending on the garment. Available in size XL and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 55,
+    "doc_id_str": "D055",
+    "category": "Saree",
+    "title": "Women's Cotton Handloom Saree - Pink",
+    "description": "Women's Cotton Handloom Saree - Pink. Made from chiffon, this saree is designed for everyday Indian wear. It features festive wear, printed border, and colourfast finish. The pink colour works well for casual, office, travel, or festive styling depending on the garment. Available in size XXL and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 56,
+    "doc_id_str": "D056",
+    "category": "Dress",
+    "title": "Women's Casual Fit Dress - Yellow",
+    "description": "Women's Casual Fit Dress - Yellow. Made from viscose, this dress is designed for everyday Indian wear. It features comfortable fit, short sleeves, and skin-friendly fabric. The yellow colour works well for casual, office, travel, or festive styling depending on the garment. Available in size S and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 57,
+    "doc_id_str": "D057",
+    "category": "Hoodie",
+    "title": "Unisex Fleece Pullover Hoodie - Wine",
+    "description": "Unisex Fleece Pullover Hoodie - Wine. Made from fleece, this hoodie is designed for everyday Indian wear. It features kangaroo pocket, warm fabric, and easy-care construction. The wine colour works well for casual, office, travel, or festive styling depending on the garment. Available in size M and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 58,
+    "doc_id_str": "D058",
+    "category": "Jacket",
+    "title": "Women's Quilted Winter Jacket - Black",
+    "description": "Women's Quilted Winter Jacket - Black. Made from denim, this jacket is designed for everyday Indian wear. It features lightweight, winter wear, and everyday comfort. The black colour works well for casual, office, travel, or festive styling depending on the garment. Available in size L and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 59,
+    "doc_id_str": "D059",
+    "category": "Leggings",
+    "title": "Women's Printed Active Leggings - Grey",
+    "description": "Women's Printed Active Leggings - Grey. Made from nylon spandex, this leggings is designed for everyday Indian wear. It features comfortable waistband, high waist, and durable stitching. The grey colour works well for casual, office, travel, or festive styling depending on the garment. Available in size XL and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 60,
+    "doc_id_str": "D060",
+    "category": "Sweatshirt",
+    "title": "Men's Regular Fit Sweatshirt - Maroon",
+    "description": "Men's Regular Fit Sweatshirt - Maroon. Made from poly cotton, this sweatshirt is designed for everyday Indian wear. It features winter wear, warm fabric, and minimal shrinkage. The maroon colour works well for casual, office, travel, or festive styling depending on the garment. Available in size XXL and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 61,
+    "doc_id_str": "D061",
+    "category": "T-Shirt",
+    "title": "Men's Cotton Crew Neck T-Shirt - White",
+    "description": "Men's Cotton Crew Neck T-Shirt - White. Made from 100% cotton, this t-shirt is designed for everyday Indian wear. It features breathable fabric, machine washable, and colourfast finish. The white colour works well for casual, office, travel, or festive styling depending on the garment. Available in size S and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 62,
+    "doc_id_str": "D062",
+    "category": "Shirt",
+    "title": "Men's Checked Cotton Shirt - Olive",
+    "description": "Men's Checked Cotton Shirt - Olive. Made from linen blend, this shirt is designed for everyday Indian wear. It features button closure, slim fit, and skin-friendly fabric. The olive colour works well for casual, office, travel, or festive styling depending on the garment. Available in size M and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 63,
+    "doc_id_str": "D063",
+    "category": "Jeans",
+    "title": "Men's Regular Fit Denim Jeans - Grey",
+    "description": "Men's Regular Fit Denim Jeans - Grey. Made from comfort stretch denim, this jeans is designed for everyday Indian wear. It features zip fly, durable stitching, and easy-care construction. The grey colour works well for casual, office, travel, or festive styling depending on the garment. Available in size L and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 64,
+    "doc_id_str": "D064",
+    "category": "Kurta",
+    "title": "Men's Regular Fit Kurta - White",
+    "description": "Men's Regular Fit Kurta - White. Made from linen blend, this kurta is designed for everyday Indian wear. It features breathable fabric, comfortable fit, and everyday comfort. The white colour works well for casual, office, travel, or festive styling depending on the garment. Available in size XL and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 65,
+    "doc_id_str": "D065",
+    "category": "Saree",
+    "title": "Women's Printed Daily Wear Saree - Green",
+    "description": "Women's Printed Daily Wear Saree - Green. Made from cotton, this saree is designed for everyday Indian wear. It features festive wear, printed border, and durable stitching. The green colour works well for casual, office, travel, or festive styling depending on the garment. Available in size XXL and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 66,
+    "doc_id_str": "D066",
+    "category": "Dress",
+    "title": "Women's Solid Midi Dress - Maroon",
+    "description": "Women's Solid Midi Dress - Maroon. Made from cotton blend, this dress is designed for everyday Indian wear. It features comfortable fit, short sleeves, and minimal shrinkage. The maroon colour works well for casual, office, travel, or festive styling depending on the garment. Available in size S and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 67,
+    "doc_id_str": "D067",
+    "category": "Hoodie",
+    "title": "Women's Oversized Fleece Hoodie - Black",
+    "description": "Women's Oversized Fleece Hoodie - Black. Made from poly cotton, this hoodie is designed for everyday Indian wear. It features kangaroo pocket, warm fabric, and colourfast finish. The black colour works well for casual, office, travel, or festive styling depending on the garment. Available in size M and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 68,
+    "doc_id_str": "D068",
+    "category": "Jacket",
+    "title": "Women's Casual Puffer Jacket - Olive",
+    "description": "Women's Casual Puffer Jacket - Olive. Made from quilted polyester, this jacket is designed for everyday Indian wear. It features lightweight, winter wear, and skin-friendly fabric. The olive colour works well for casual, office, travel, or festive styling depending on the garment. Available in size L and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 69,
+    "doc_id_str": "D069",
+    "category": "Leggings",
+    "title": "Women's High Waist Stretch Leggings - Olive Green",
+    "description": "Women's High Waist Stretch Leggings - Olive Green. Made from cotton stretch, this leggings is designed for everyday Indian wear. It features comfortable waistband, high waist, and easy-care construction. The olive green colour works well for casual, office, travel, or festive styling depending on the garment. Available in size XL and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 70,
+    "doc_id_str": "D070",
+    "category": "Sweatshirt",
+    "title": "Women's Fleece Sweatshirt - Black",
+    "description": "Women's Fleece Sweatshirt - Black. Made from cotton blend, this sweatshirt is designed for everyday Indian wear. It features winter wear, warm fabric, and everyday comfort. The black colour works well for casual, office, travel, or festive styling depending on the garment. Available in size XXL and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 71,
+    "doc_id_str": "D071",
+    "category": "T-Shirt",
+    "title": "Men's Oversized Graphic T-Shirt - Black",
+    "description": "Men's Oversized Graphic T-Shirt - Black. Made from cotton blend, this t-shirt is designed for everyday Indian wear. It features breathable fabric, machine washable, and durable stitching. The black colour works well for casual, office, travel, or festive styling depending on the garment. Available in size S and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 72,
+    "doc_id_str": "D072",
+    "category": "Shirt",
+    "title": "Women's Striped Casual Shirt - Black",
+    "description": "Women's Striped Casual Shirt - Black. Made from viscose blend, this shirt is designed for everyday Indian wear. It features button closure, slim fit, and minimal shrinkage. The black colour works well for casual, office, travel, or festive styling depending on the garment. Available in size M and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 73,
+    "doc_id_str": "D073",
+    "category": "Jeans",
+    "title": "Men's Slim Fit Stretch Jeans - Grey",
+    "description": "Men's Slim Fit Stretch Jeans - Grey. Made from stretch denim, this jeans is designed for everyday Indian wear. It features zip fly, durable stitching, and colourfast finish. The grey colour works well for casual, office, travel, or festive styling depending on the garment. Available in size L and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 74,
+    "doc_id_str": "D074",
+    "category": "Kurta",
+    "title": "Women's Printed Straight Kurta - Pink",
+    "description": "Women's Printed Straight Kurta - Pink. Made from cotton slub, this kurta is designed for everyday Indian wear. It features breathable fabric, comfortable fit, and skin-friendly fabric. The pink colour works well for casual, office, travel, or festive styling depending on the garment. Available in size XL and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 75,
+    "doc_id_str": "D075",
+    "category": "Saree",
+    "title": "Women's Cotton Handloom Saree - Blue",
+    "description": "Women's Cotton Handloom Saree - Blue. Made from chiffon, this saree is designed for everyday Indian wear. It features festive wear, printed border, and easy-care construction. The blue colour works well for casual, office, travel, or festive styling depending on the garment. Available in size XXL and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 76,
+    "doc_id_str": "D076",
+    "category": "Dress",
+    "title": "Women's Casual Fit Dress - Green",
+    "description": "Women's Casual Fit Dress - Green. Made from viscose, this dress is designed for everyday Indian wear. It features comfortable fit, short sleeves, and everyday comfort. The green colour works well for casual, office, travel, or festive styling depending on the garment. Available in size S and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 77,
+    "doc_id_str": "D077",
+    "category": "Hoodie",
+    "title": "Unisex Fleece Pullover Hoodie - Navy Blue",
+    "description": "Unisex Fleece Pullover Hoodie - Navy Blue. Made from fleece, this hoodie is designed for everyday Indian wear. It features kangaroo pocket, warm fabric, and durable stitching. The navy blue colour works well for casual, office, travel, or festive styling depending on the garment. Available in size M and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 78,
+    "doc_id_str": "D078",
+    "category": "Jacket",
+    "title": "Women's Quilted Winter Jacket - Beige",
+    "description": "Women's Quilted Winter Jacket - Beige. Made from denim, this jacket is designed for everyday Indian wear. It features lightweight, winter wear, and minimal shrinkage. The beige colour works well for casual, office, travel, or festive styling depending on the garment. Available in size L and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 79,
+    "doc_id_str": "D079",
+    "category": "Leggings",
+    "title": "Women's Printed Active Leggings - Black",
+    "description": "Women's Printed Active Leggings - Black. Made from nylon spandex, this leggings is designed for everyday Indian wear. It features comfortable waistband, high waist, and colourfast finish. The black colour works well for casual, office, travel, or festive styling depending on the garment. Available in size XL and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 80,
+    "doc_id_str": "D080",
+    "category": "Sweatshirt",
+    "title": "Men's Regular Fit Sweatshirt - Navy Blue",
+    "description": "Men's Regular Fit Sweatshirt - Navy Blue. Made from poly cotton, this sweatshirt is designed for everyday Indian wear. It features winter wear, warm fabric, and skin-friendly fabric. The navy blue colour works well for casual, office, travel, or festive styling depending on the garment. Available in size XXL and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 81,
+    "doc_id_str": "D081",
+    "category": "T-Shirt",
+    "title": "Men's Cotton Crew Neck T-Shirt - Mustard",
+    "description": "Men's Cotton Crew Neck T-Shirt - Mustard. Made from 100% cotton, this t-shirt is designed for everyday Indian wear. It features breathable fabric, machine washable, and easy-care construction. The mustard colour works well for casual, office, travel, or festive styling depending on the garment. Available in size S and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 82,
+    "doc_id_str": "D082",
+    "category": "Shirt",
+    "title": "Men's Checked Cotton Shirt - Blue",
+    "description": "Men's Checked Cotton Shirt - Blue. Made from linen blend, this shirt is designed for everyday Indian wear. It features button closure, slim fit, and everyday comfort. The blue colour works well for casual, office, travel, or festive styling depending on the garment. Available in size M and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 83,
+    "doc_id_str": "D083",
+    "category": "Jeans",
+    "title": "Men's Regular Fit Denim Jeans - Grey",
+    "description": "Men's Regular Fit Denim Jeans - Grey. Made from cotton denim, this jeans is designed for everyday Indian wear. It features zip fly, durable stitching, and durable stitching. The grey colour works well for casual, office, travel, or festive styling depending on the garment. Available in size L and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 84,
+    "doc_id_str": "D084",
+    "category": "Kurta",
+    "title": "Men's Regular Fit Kurta - Beige",
+    "description": "Men's Regular Fit Kurta - Beige. Made from linen blend, this kurta is designed for everyday Indian wear. It features breathable fabric, comfortable fit, and minimal shrinkage. The beige colour works well for casual, office, travel, or festive styling depending on the garment. Available in size XL and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 85,
+    "doc_id_str": "D085",
+    "category": "Saree",
+    "title": "Women's Printed Daily Wear Saree - Red",
+    "description": "Women's Printed Daily Wear Saree - Red. Made from cotton, this saree is designed for everyday Indian wear. It features festive wear, printed border, and colourfast finish. The red colour works well for casual, office, travel, or festive styling depending on the garment. Available in size XXL and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 86,
+    "doc_id_str": "D086",
+    "category": "Dress",
+    "title": "Women's Solid Midi Dress - Floral Pink",
+    "description": "Women's Solid Midi Dress - Floral Pink. Made from cotton blend, this dress is designed for everyday Indian wear. It features comfortable fit, short sleeves, and skin-friendly fabric. The floral pink colour works well for casual, office, travel, or festive styling depending on the garment. Available in size S and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 87,
+    "doc_id_str": "D087",
+    "category": "Hoodie",
+    "title": "Women's Oversized Fleece Hoodie - Wine",
+    "description": "Women's Oversized Fleece Hoodie - Wine. Made from poly cotton, this hoodie is designed for everyday Indian wear. It features kangaroo pocket, warm fabric, and easy-care construction. The wine colour works well for casual, office, travel, or festive styling depending on the garment. Available in size M and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 88,
+    "doc_id_str": "D088",
+    "category": "Jacket",
+    "title": "Women's Casual Puffer Jacket - Black",
+    "description": "Women's Casual Puffer Jacket - Black. Made from quilted polyester, this jacket is designed for everyday Indian wear. It features lightweight, winter wear, and everyday comfort. The black colour works well for casual, office, travel, or festive styling depending on the garment. Available in size L and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 89,
+    "doc_id_str": "D089",
+    "category": "Leggings",
+    "title": "Women's High Waist Stretch Leggings - Grey",
+    "description": "Women's High Waist Stretch Leggings - Grey. Made from cotton stretch, this leggings is designed for everyday Indian wear. It features comfortable waistband, high waist, and durable stitching. The grey colour works well for casual, office, travel, or festive styling depending on the garment. Available in size XL and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 90,
+    "doc_id_str": "D090",
+    "category": "Sweatshirt",
+    "title": "Women's Fleece Sweatshirt - Maroon",
+    "description": "Women's Fleece Sweatshirt - Maroon. Made from cotton blend, this sweatshirt is designed for everyday Indian wear. It features winter wear, warm fabric, and minimal shrinkage. The maroon colour works well for casual, office, travel, or festive styling depending on the garment. Available in size XXL and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 91,
+    "doc_id_str": "D091",
+    "category": "T-Shirt",
+    "title": "Men's Oversized Graphic T-Shirt - Sky Blue",
+    "description": "Men's Oversized Graphic T-Shirt - Sky Blue. Made from cotton blend, this t-shirt is designed for everyday Indian wear. It features breathable fabric, machine washable, and colourfast finish. The sky blue colour works well for casual, office, travel, or festive styling depending on the garment. Available in size S and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 92,
+    "doc_id_str": "D092",
+    "category": "Shirt",
+    "title": "Women's Striped Casual Shirt - White",
+    "description": "Women's Striped Casual Shirt - White. Made from viscose blend, this shirt is designed for everyday Indian wear. It features button closure, slim fit, and skin-friendly fabric. The white colour works well for casual, office, travel, or festive styling depending on the garment. Available in size M and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 93,
+    "doc_id_str": "D093",
+    "category": "Jeans",
+    "title": "Men's Slim Fit Stretch Jeans - Grey",
+    "description": "Men's Slim Fit Stretch Jeans - Grey. Made from comfort stretch denim, this jeans is designed for everyday Indian wear. It features zip fly, durable stitching, and easy-care construction. The grey colour works well for casual, office, travel, or festive styling depending on the garment. Available in size L and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 94,
+    "doc_id_str": "D094",
+    "category": "Kurta",
+    "title": "Women's Printed Straight Kurta - Teal",
+    "description": "Women's Printed Straight Kurta - Teal. Made from cotton slub, this kurta is designed for everyday Indian wear. It features breathable fabric, comfortable fit, and everyday comfort. The teal colour works well for casual, office, travel, or festive styling depending on the garment. Available in size XL and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 95,
+    "doc_id_str": "D095",
+    "category": "Saree",
+    "title": "Women's Cotton Handloom Saree - Maroon",
+    "description": "Women's Cotton Handloom Saree - Maroon. Made from chiffon, this saree is designed for everyday Indian wear. It features festive wear, printed border, and durable stitching. The maroon colour works well for casual, office, travel, or festive styling depending on the garment. Available in size XXL and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 96,
+    "doc_id_str": "D096",
+    "category": "Dress",
+    "title": "Women's Casual Fit Dress - Navy Blue",
+    "description": "Women's Casual Fit Dress - Navy Blue. Made from viscose, this dress is designed for everyday Indian wear. It features comfortable fit, short sleeves, and minimal shrinkage. The navy blue colour works well for casual, office, travel, or festive styling depending on the garment. Available in size S and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 97,
+    "doc_id_str": "D097",
+    "category": "Hoodie",
+    "title": "Unisex Fleece Pullover Hoodie - Black",
+    "description": "Unisex Fleece Pullover Hoodie - Black. Made from fleece, this hoodie is designed for everyday Indian wear. It features kangaroo pocket, warm fabric, and colourfast finish. The black colour works well for casual, office, travel, or festive styling depending on the garment. Available in size M and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 98,
+    "doc_id_str": "D098",
+    "category": "Jacket",
+    "title": "Women's Quilted Winter Jacket - Olive",
+    "description": "Women's Quilted Winter Jacket - Olive. Made from denim, this jacket is designed for everyday Indian wear. It features lightweight, winter wear, and skin-friendly fabric. The olive colour works well for casual, office, travel, or festive styling depending on the garment. Available in size L and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 99,
+    "doc_id_str": "D099",
+    "category": "Leggings",
+    "title": "Women's Printed Active Leggings - Olive Green",
+    "description": "Women's Printed Active Leggings - Olive Green. Made from nylon spandex, this leggings is designed for everyday Indian wear. It features comfortable waistband, high waist, and easy-care construction. The olive green colour works well for casual, office, travel, or festive styling depending on the garment. Available in size XL and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  },
+  {
+    "doc_id": 100,
+    "doc_id_str": "D100",
+    "category": "Sweatshirt",
+    "title": "Men's Regular Fit Sweatshirt - Black",
+    "description": "Men's Regular Fit Sweatshirt - Black. Made from poly cotton, this sweatshirt is designed for everyday Indian wear. It features winter wear, warm fabric, and everyday comfort. The black colour works well for casual, office, travel, or festive styling depending on the garment. Available in size XXL and other standard sizes. The garment is suitable for comfortable regular use and can be paired with common wardrobe essentials."
+  }
+]
